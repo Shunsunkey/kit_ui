@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'exemple</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/quartz/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="container my-4">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Filtrer les événements</h5>
+        <form>
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+          <div class="form-group">
+            <label for="category">Catégorie</label>
+            <select class="form-control" id="category">
+              <option>Musique</option>
+              <option>Sport</option>
+              <option>Conférences</option>
+              <option>Art</option>
+              <option>Famille</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location">Lieu</label>
+            <input type="text" class="form-control" id="location" placeholder="Ville">
+          </div>
+          <div class="form-group">
+            <label for="price">Prix</label>
+            <select class="form-control" id="price">
+              <option>Gratuit</option>
+              <option>Payant</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Appliquer les filtres</button>
+        </form>
+      </div>
+      <div class="col-md-9">
+        <h5>Résultats des événements</h5>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h4 class="card-title">Primary card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-info mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h4 class="card-title">Info card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h4 class="card-title">Dark card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
